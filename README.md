@@ -1,1 +1,1 @@
-# Mini-batch-Gradient-Descent-Feed-Forward-Neural-Network-
+# Mini-batch-Gradient-Descent-Feed-Forward-Neural-Network
