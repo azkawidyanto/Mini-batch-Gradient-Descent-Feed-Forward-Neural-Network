@@ -119,11 +119,17 @@ def feedforward(weights, inputs, nb_nodes, hidden_layer ) :
     
     return active, output_feed, output_weights
 
-def initialize_delta(weights) :
-    delta = []
-    for i in weights :
-        temp = []
+        def initilialize_delta(weights):
+        delta=[]
+        for i in weights:
+        temp=[]
+        for j in i:
+        temp_delta=[]
+        for k in j:
+            temp_delta.append(0.0)
+        temp.append(temp_delta)
+        delta.append(temp)
 
-        for j in j :
+    return delta
 
 
