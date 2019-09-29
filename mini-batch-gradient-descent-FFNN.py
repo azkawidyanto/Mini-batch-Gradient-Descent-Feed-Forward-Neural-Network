@@ -126,7 +126,7 @@ def initilialize_delta(weights):
         temp=[]
         for j in i:
         temp_delta=[]
-        for k in j:
+            for k in j:
             temp_delta.append(0.0)
         temp.append(temp_delta)
         delta.append(temp)
